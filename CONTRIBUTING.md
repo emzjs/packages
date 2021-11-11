@@ -29,5 +29,5 @@
 ```
 - A guide to setup your command is required
     - Steps to create a guide:
-      1. Create a file in `/guide/package_name.md` 
-      2. The file name must match the `package_name`
+      - Create a file in `/guide/package_name.md` 
+      - The file name must match the `package_name`
