@@ -27,3 +27,7 @@
 "required_permissions": ["READ_MESSAGES"]
 "required_intents": ["GUILDS"]
 ```
+- A guide to setup your command is required
+    - Steps to create a guide:
+      1. Create a file in `/guide/package_name.md` 
+      2. The file name must match the `package_name`
