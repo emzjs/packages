@@ -6,19 +6,24 @@
 
 ### Instruction
 1. Create a file in `packages/{library}/{package_name}` (e.g. `packages/discord.js/example-command`)
-2. Create a json object in the file with these required object keys/values :
+2. Create a json object in the file with these required object keys/values (example) :
 ```json
 {
- "package_name": "Specify A Name For Your Command (e.g. Awesome Help Command)",
- "category": ["(e.g. help)"],
- "library": "Specify A Library This Command Supports (e.g. discord.js)",
- "description": "Describe Your Command",
- "author": "Your Name <your_email/website:optional:>"
- "version": "Your Command's Version (e.g. 1.0.0)",
- "directory": "/commands/{{package_name}}",
+ "package_name": "awesome-help-command",
+ "category": ["help", "list of commands"],
+ "library": "discord.js",
+ "description": "List of every commands",
+ "author": "emzjs <https://emz.js.org>"
+ "version": "1.0.0",
  "dependencies": {
-   "specify-required-dependencies-for-this-command": "^0.1.0",
-   "example: emz": "^0.3.5",
    "discord.js": "^0.0.1"
  }
-}```
+}
+```
+- You must specify every dependencies your command uses, including the library and version
+- You may add these object keys/values (recognize by emz.pkg) :
+```
+"credit": "https://github.com/emzjs/package"
+"required_permissions": ["READ_MESSAGES"]
+"required_intents": ["GUILDS"]
+```
