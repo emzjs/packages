@@ -9,6 +9,7 @@
  "dependencies": {
    "example-dependency:": "^0.0.7",
    "specify-required-dependencies-for-this-command": "^0.1.0",
-   "example: emz": "^0.3.5"
+   "example: emz": "^0.3.5",
+   "discord.js": "^0.0.1"
  }
 }
