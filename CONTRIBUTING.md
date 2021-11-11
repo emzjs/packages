@@ -46,3 +46,6 @@ module.exports = {
 ```
 - You must specify the `name`, `description` object keys
 - The `execute` must be an async function
+
+5. Make sure you've tested the command
+6. Create a pull request with minimum 3 file changes in these directories : `packages`, `commands`, `guide`
