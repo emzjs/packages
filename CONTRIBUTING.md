@@ -29,5 +29,20 @@
 ```
 - A guide to setup your command is required
     - Steps to create a guide:
-      - Create a file in `/guide/package_name.md` 
-      - The file name must match the `package_name`
+      - Create a file in `guide/package_name.md` (e.g. `guide/example.md`)
+      - The file name must match the `package_name` 
+      - Content inside the guide must be related to the package/command
+
+3. Create a file in `commands/{package_name}.js` (e.g. `commands/example.js`)
+4. Export an object with this formatting :
+```js
+module.exports = {
+  name: '{{ custom/blank }}',
+  description: 'Describe the command, for the command list',
+  async execute(interaction) {
+    // your code
+  }
+}
+```
+- You must specify the `name`, `description` object keys
+- The `execute` must be an async function
