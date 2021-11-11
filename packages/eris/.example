@@ -1,0 +1,15 @@
+{
+ "package_name": "Specify A Name For Your Command (e.g. Awesome Help Command)",
+ "category": ["(e.g. help)"],
+ "library": "Specify A Library This Command Supports (e.g. eris)",
+ "description": "Describe Your Command",
+ "author": "Your Name <your_email/website:optional:>"
+ "version": "Your Command's Version (e.g. 1.0.0)",
+ "directory": "/commands/{{package_name}}",
+ "dependencies": {
+   "example-dependency:": "^0.0.7",
+   "specify-required-dependencies-for-this-command": "^0.1.0",
+   "example: emz": "^0.3.5",
+   "eris": "^0.0.1"
+ }
+}
