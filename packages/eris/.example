@@ -5,7 +5,7 @@
  "description": "Describe Your Command",
  "author": "Your Name <your_email/website:optional:>"
  "version": "Your Command's Version (e.g. 1.0.0)",
- "directory": "/commands/{{package_name}}",
+ "directory": "/commands/eris/{{package_name}}",
  "dependencies": {
    "example-dependency:": "^0.0.7",
    "specify-required-dependencies-for-this-command": "^0.1.0",
