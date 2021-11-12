@@ -3,7 +3,7 @@
  "category": ["(e.g. help)"],
  "library": "Specify A Library This Command Supports (e.g. eris)",
  "description": "Describe Your Command",
- "author": "Your Name <your_email/website:optional:>"
+ "author": "Your Name <your_email/website:optional:>",
  "version": "Your Command's Version (e.g. 1.0.0)",
  "directory": "/commands/eris/{{package_name}}",
  "dependencies": {
