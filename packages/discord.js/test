@@ -1,10 +1,10 @@
 {
- "package_name": "Specify A Name For Your Command (e.g. Awesome Help Command)",
+ "package_name": "Test Command",
  "category": ["(e.g. help)"],
  "library": "Specify A Library This Command Supports (e.g. discord.js)",
  "description": "Describe Your Command",
  "author": "Your Name <your_email/website:optional:>",
- "version": "Your Command's Version (e.g. 1.0.0)",
+ "version": "1.0.0",
  "directory": "/commands/discord.js/{{package_name}}",
  "dependencies": {
    "node-fetch": "^2.4.1"
